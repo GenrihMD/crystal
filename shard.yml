@@ -1,0 +1,13 @@
+name: blog
+version: 0.1.0
+
+authors:
+  - laamin <genrih.md@gmail.com>
+
+targets:
+  blog:
+    main: src/blog.cr
+
+crystal: 1.0.0
+
+license: MIT
