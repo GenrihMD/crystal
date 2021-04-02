@@ -6,7 +6,7 @@ authors:
 
 targets:
   blog:
-    main: src/blog.cr
+    main: src/main.cr
 
 crystal: 1.0.0
 
