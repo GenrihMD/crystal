@@ -1,6 +1,15 @@
-# TODO: Write documentation for `Blog`
+# Lets's image I make a blog
+require "kemal"
+require "json"
+
 module Blog
   VERSION = "0.1.0"
 
-  # TODO: Put your code here
+  get "/" do |ctx|
+    ctx.response.content_type = "application/json"
+    {name: "Лямин", age: 30}.to_json
+  end
+  
+  Kemal.run
 end
+
