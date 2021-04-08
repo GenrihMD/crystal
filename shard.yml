@@ -12,11 +12,11 @@ crystal: 1.0.0
 
 license: MIT
 
-dependencies:
+shards:
   kemal:
     github: kemalcr/kemal
-
-shards:
+  pg:
+    github: will/crystal-pg
   crecto:
     github: Crecto/crecto
     version: 0.11.3

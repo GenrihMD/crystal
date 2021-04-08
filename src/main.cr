@@ -2,7 +2,7 @@
 require "kemal"
 require "json"
 require "pg"
-require "creto"
+require "crecto"
 
 module Blog
   VERSION = "0.1.0"
